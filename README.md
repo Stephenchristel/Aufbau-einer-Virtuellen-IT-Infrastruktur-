@@ -9,6 +9,7 @@ Aufbau einer Virtuallen IT- Infrastruktur : Integration von Windows Server (Acti
 
 ## Nachdem der DHCP-Server erfolgreich konfiguriert wurde, habe ich in den Bereichsoptionen den zuvor installierten DNS-Server eingetragen. Dadurch erhalten die Clients neben ihrer IP-Adresse automatisch die IP des DNS-Servers, was für die spätere Namensauflösung in der Active-Directory-Domäne zwingend erforderlich ist.
 <img width="959" height="576" alt="Screenshot 2026-06-20 145124" src="https://github.com/user-attachments/assets/005ed526-46ff-47b8-827e-30e99bca07d9" />
+
 ## Danach wurden die Linux-Clients (Ubuntu) gestartet, um eine kabelgebundene Netzwerkverbindung zwischen dem Server und den Clients herzustellen. Dies ist notwendig, um einen stabilen Kommunikationsweg zwischen beiden Systemen zu gewährleisten.
 <img width="1104" height="734" alt="Screenshot 2026-06-21 141832" src="https://github.com/user-attachments/assets/b1a8b365-ea1d-4c89-a2cd-8546de4e22cf" />
 
