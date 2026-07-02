@@ -1,5 +1,5 @@
 ## Aufbau einer Virtuellen IT-Infrastruktur -
-Aufbau einer Virtuallen IT- Infrastruktur : Integration von Windows Server (Active Directory ,DNS ,DHCP) und Linux-Clients in einer virtualisierten Testumgebung 
+Aufbau einer Virtuallen IT- Infrastruktur : Integration von Windows Server (Active Directory ,DNS ,DHCP) und Linux-Clients in einer virtualisierten Testumgebung.Ich wollte zwei virtuelle Maschinen (VMs) so verbinden, dass der Windows Server der „zentrale Administrationsinstanz (Domänencontroller)“ im Netzwerk ist und dem Linux-Client (Ubuntu) automatisch seine IP-Adresse gibt.In modernen Unternehmen arbeitet fast niemand an isolierten Computern. Alles ist vernetzt. Dieses Projekt ist wichtig, weil es zeigt, wie man diese Vernetzung sicher, zentral steuerbar und automatisiert aufbaut.
 ## Nach der Installation des Windows Servers habe ich Active Directory eingerichtet, um eine zentrale Verwaltung und Strukturierung in meinem IT-Netzwerk zu gewährleisten.
 <img width="1014" height="712" alt="Screenshot 2026-06-20 125556" src="https://github.com/user-attachments/assets/aa310176-a764-4731-aecb-eb2699cb98b6" /> 
 <img width="991" height="742" alt="Screenshot 2026-06-20 132609" src="https://github.com/user-attachments/assets/c364bc25-c72d-40f5-89d8-3ea4be872e32" />
