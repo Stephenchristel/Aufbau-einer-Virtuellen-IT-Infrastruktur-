@@ -1,14 +1,14 @@
-### Aufbau einer Virtuellen IT-Infrastruktur -
+## Aufbau einer Virtuellen IT-Infrastruktur 
 Aufbau einer Virtuallen IT- Infrastruktur : Integration von Windows Server (Active Directory ,DNS ,DHCP) und Linux-Clients in einer virtualisierten Testumgebung.Ich wollte zwei virtuelle Maschinen (VMs) so verbinden, dass der Windows Server der „zentrale Administrationsinstanz (Domänencontroller)“ im Netzwerk ist und dem Linux-Client (Ubuntu) automatisch seine IP-Adresse gibt.In modernen Unternehmen arbeitet fast niemand an isolierten Computern. Alles ist vernetzt. Dieses Projekt ist wichtig, weil es zeigt, wie man diese Vernetzung sicher, zentral steuerbar und automatisiert aufbaut.
-### Nach der Installation des Windows Servers habe ich Active Directory eingerichtet, um eine zentrale Verwaltung und Strukturierung in meinem IT-Netzwerk zu gewährleisten.
+# Nach der Installation des Windows Servers habe ich Active Directory eingerichtet, um eine zentrale Verwaltung und Strukturierung in meinem IT-Netzwerk zu gewährleisten.
 <img width="1014" height="712" alt="Screenshot 2026-06-20 125556" src="https://github.com/user-attachments/assets/aa310176-a764-4731-aecb-eb2699cb98b6" /> 
 <img width="991" height="742" alt="Screenshot 2026-06-20 132609" src="https://github.com/user-attachments/assets/c364bc25-c72d-40f5-89d8-3ea4be872e32" />
-### Im nächsten Schritt habe ich den DHCP-Server eingerichtet, um eine automatische IP-Adressvergabe innerhalb des Netzwerks zu gewährleisten.
+# Im nächsten Schritt habe ich den DHCP-Server eingerichtet, um eine automatische IP-Adressvergabe innerhalb des Netzwerks zu gewährleisten.
 <img width="997" height="767" alt="Screenshot 2026-06-20 135923" src="https://github.com/user-attachments/assets/4003cff0-8674-4c58-a0e4-3e6f47eb2305" /> 
-### Nachdem der DHCP-Server erfolgreich konfiguriert wurde, habe ich in den Bereichsoptionen den zuvor installierten DNS-Server eingetragen. Dadurch erhalten die Clients neben ihrer IP-Adresse automatisch die IP des DNS-Servers, was für die spätere Namensauflösung in der Active-Directory-Domäne zwingend erforderlich ist.
+# Nachdem der DHCP-Server erfolgreich konfiguriert wurde, habe ich in den Bereichsoptionen den zuvor installierten DNS-Server eingetragen. Dadurch erhalten die Clients neben ihrer IP-Adresse automatisch die IP des DNS-Servers, was für die spätere Namensauflösung in der Active-Directory-Domäne zwingend erforderlich ist.
 <img width="959" height="576" alt="Screenshot 2026-06-20 145124" src="https://github.com/user-attachments/assets/005ed526-46ff-47b8-827e-30e99bca07d9" />
-### Danach wurden die Linux-Clients (Ubuntu) gestartet, um eine kabelgebundene Netzwerkverbindung zwischen dem Server und den Clients herzustellen. Dies ist notwendig, um einen stabilen Kommunikationsweg zwischen beiden Systemen zu gewährleisten.
+# Danach wurden die Linux-Clients (Ubuntu) gestartet, um eine kabelgebundene Netzwerkverbindung zwischen dem Server und den Clients herzustellen. Dies ist notwendig, um einen stabilen Kommunikationsweg zwischen beiden Systemen zu gewährleisten.
 <img width="1104" height="734" alt="Screenshot 2026-06-21 141832" src="https://github.com/user-attachments/assets/b1a8b365-ea1d-4c89-a2cd-8546de4e22cf" />
-### Abschließend habe ich einen Verbindungstest durchgeführt, um zu verifizieren, ob beide Geräte erfolgreich miteinander kommunizieren können. Dazu wurde von der Linux-Workstation ein Ping-Befehl an den Server gesendet.
+# Abschließend habe ich einen Verbindungstest durchgeführt, um zu verifizieren, ob beide Geräte erfolgreich miteinander kommunizieren können. Dazu wurde von der Linux-Workstation ein Ping-Befehl an den Server gesendet.
 <img width="1238" height="782" alt="Screenshot 2026-06-21 151214" src="https://github.com/user-attachments/assets/93929ac3-7cef-41aa-bb8a-4165d852b890" /> 
 <img width="1193" height="758" alt="Screenshot 2026-06-21 154216" src="https://github.com/user-attachments/assets/de960025-ccd3-4666-aec4-bb637c7b0261" />
